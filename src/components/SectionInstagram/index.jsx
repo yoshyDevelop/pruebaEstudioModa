@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap'
+import { motion } from "framer-motion"
 import image1 from '../../assets/section4/1bd7d3627260b36a34aa9acb82b9db44ffb593e5.png'
 import image2 from '../../assets/section4/instagram2.png'
 import image3 from '../../assets/section4/11445207cc4b1fc0433ff88d021e10fc02ef6189.png'
@@ -41,11 +42,22 @@ const SectionInstagram = () => {
               <Row className="justify-content-md-center">
               {shuffle(images)?.map((image, index) => (
                 <Col key={index} className='p-0' md="4">
+                  <motion.div 
+                style={{display: 'block', position: 'relative', width: '-webkit-fill-available', padding:0}}
+                whileHover={{ scale: 1.1 , zIndex: 1}}
+                whileTap={{
+                    scale: 1,
+                    rotate: -1,
+                    borderRadius: "100%"
+                }}
+                >
                   <Image
                     loading="lazy"
                     srcSet={image}
                     className="img img-section img-section-instagram"
                   />
+                </motion.div>
+                  
                 </Col>
               ))}
               </Row>

@@ -1,8 +1,8 @@
 # Guía del Usuario
 
-## Bienvenida
+## Bienvenid@
 
-¡Hola! Bienvenido a la guía del usuario para la prueba de desarrollo que estoy presentando. Este proyecto es una representación de mis habilidades de desarrollo y espero que sirva como una demostración efectiva de lo que soy capaz de hacer.
+¡Hola! Bienvenid@ a la guía del usuario para la prueba de desarrollo que estoy presentando. Este proyecto es una representación de mis habilidades de desarrollo y espero que sirva como una demostración efectiva de lo que soy capaz de hacer.
 
 ## Tecnologías Utilizadas
 

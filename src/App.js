@@ -27,28 +27,32 @@ function App() {
       titulo: "Pufi RAIN",
       descripcion: "Descripción del producto. Este es un texto simulado",
       imagesection: imageSection1,
-      sectionbutton: true
+      sectionbutton: true,
+      class: "rain"
     },
     {
       imagen: imagen2,
       titulo: "Pufi PUFF",
       descripcion: "Descripción del producto. Este es un texto simulado",
       imagesection: imagenSection2,
-      sectionbutton: false
+      sectionbutton: false,
+      class: "puff"
     },
     {
       imagen: imagen3,
       titulo: "Pufi cart",
       descripcion: "Descripción del producto. Este es un texto simulado",
       imagesection: imagenSection3,
-      sectionbutton: false
+      sectionbutton: false,
+      class: "cart"
     },
     {
       imagen: imagen4,
       titulo: "Pufi NAP",
       descripcion: "Descripción del producto. Este es un texto simulado ",
       imagesection: imagenSection4,
-      sectionbutton: false
+      sectionbutton: false,
+      class: "nap"
     }
   ];
   return (
