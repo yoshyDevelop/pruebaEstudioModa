@@ -1,0 +1,39 @@
+/* The following line can be included in a src/App.scss */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&family=Inter:wght@100..900&display=swap');
+
+.inter-header {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  .encode-sans-sc-button-header {
+    font-family: "Encode Sans SC", sans-serif!important;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+ 
+  .encode-sans-sc-button-section {
+    font-family: "Encode Sans SC", sans-serif!important;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .header-text {
+    place-self: flex-end;
+    padding-bottom: 75px;
+    font-size: 57px;
+  }
+
+
+@import './custom.scss';

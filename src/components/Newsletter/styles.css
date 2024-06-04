@@ -1,0 +1,39 @@
+.form.newsletter-7 {
+  font-size: inherit;
+  border-right: #f5f5f500;
+  border-radius: 0;
+      border-style: solid;
+    border-width: 1px;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn-newsletter{
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid rgba(116, 116, 116, 1);
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-left: #f5f5f500;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.btn-newsletter:hover{
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-left: #f5f5f500;
+  border-radius: 0;
+}

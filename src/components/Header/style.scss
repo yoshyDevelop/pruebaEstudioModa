@@ -1,0 +1,45 @@
+.img-header {
+    width: 100%;
+    min-height: 600px;
+    max-height: 815px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption {
+    max-width: 650px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    text-shadow: 1px 1px 4px #5f5f5f;
+    height: 100%;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border: 5px double #ffffff00 !important;
+}
+
+.carousel-indicators button.active {
+    border: 5px double #fff!important; 
+}
+.button-header {
+    border-radius: inherit;
+    width: 25%;
+    height: 20%;
+    min-height: 54px;
+    margin: auto;
+    border-width: 2px;
+    letter-spacing: 4.5px;
+    font-size: small;
+}
+
+.button-header {
+    color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg);
+    border-color: var(--bs-btn-active-border-color);
+}
